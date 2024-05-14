@@ -25,7 +25,7 @@ void loop() {
   if 
   (digitalRead(capteur) == HIGH)// check for movement
    {
-    delay(5000);//attent 5 seconde
+    delay(5000);//wait 5 seconde
      if
      (digitalRead(capteur) == HIGH )//check if there is still movement after 5 seconds
       {digitalWrite(relay, HIGH);//activate relay
