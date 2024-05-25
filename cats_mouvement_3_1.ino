@@ -47,7 +47,7 @@ void loop() {
        delay (30000);//wait 30 seconds
        digitalWrite(green, LOW);//lights down the green LED
        digitalWrite(yellow, HIGH);//lights up the yellow LED
-       delay (15000);//wait 25 seconds
+       delay (25000);//wait 25 seconds
        digitalWrite(yellow, LOW);//lights down the yellow LED
 
         while(time < 5 ){//time is less than 5000
